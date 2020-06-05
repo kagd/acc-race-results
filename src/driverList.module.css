@@ -1,0 +1,54 @@
+.driverList {
+  background-color: #e3e3e3;
+  border-top: 1px solid #ccc;
+  height: calc(100vh - 48px);
+  margin: 0;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.driverList li {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #fff;
+  list-style: none;
+}
+
+.driverList a {
+  color: #222;
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.driverList a:hover {
+  background-color: #d3d3d3;
+}
+
+.driverList a strong,
+.driverList a em {
+  display: block;
+}
+
+.driverList a strong {
+  color: #005CB6;
+  font-size: 16px;
+}
+
+.driverList a span {
+  color: #222;
+  font-size: 14px;
+}
+
+.driverList a em {
+  font-size: 12px;
+  font-style: normal;
+}
+
+.form {
+  background-color: #e3e3e3;
+  padding: 10px;
+}
+
+.form input {
+  width: 100%;
+}
