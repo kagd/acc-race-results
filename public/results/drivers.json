@@ -1,243 +1,9 @@
 [
   {
-    "name": "Hamza Gulzar",
-    "nameLastFirst": "Gulzar, Hamza",
-    "car": "AMR V8 Vantage 2019",
-    "carNumber": 14
-  },
-  {
-    "name": "Jon Leigh",
-    "nameLastFirst": "Leigh, Jon",
+    "name": "Conrad Abbott",
+    "nameLastFirst": "Abbott, Conrad",
     "car": "Porsche 911 II GT3 R 2019",
-    "carNumber": 7
-  },
-  {
-    "name": "Matheus Nolli",
-    "nameLastFirst": "Nolli, Matheus",
-    "car": "Ferrari 488 GT3",
-    "carNumber": 39
-  },
-  {
-    "name": "Andrew Worden",
-    "nameLastFirst": "Worden, Andrew",
-    "car": "Lamborghini Huracan Evo 2019",
-    "carNumber": 616
-  },
-  {
-    "name": "JT Tami",
-    "nameLastFirst": "Tami, JT",
-    "car": "Jaguar G3",
-    "carNumber": 97
-  },
-  {
-    "name": "Drake Burgoon",
-    "nameLastFirst": "Burgoon, Drake",
-    "car": "AMR V8 Vantage 2019",
-    "carNumber": 415
-  },
-  {
-    "name": "Elard Meza",
-    "nameLastFirst": "Meza, Elard",
-    "car": "Ferrari 488 GT3",
-    "carNumber": 240
-  },
-  {
-    "name": "Fabio Pittol",
-    "nameLastFirst": "Pittol, Fabio",
-    "car": "Lamborghini Huracan Evo 2019",
-    "carNumber": 163
-  },
-  {
-    "name": "Matheus Freitas",
-    "nameLastFirst": "Freitas, Matheus",
-    "car": "Ferrari 488 GT3",
-    "carNumber": 88
-  },
-  {
-    "name": "Tim Winfree",
-    "nameLastFirst": "Winfree, Tim",
-    "car": "Porsche 911 II GT3 R 2019",
-    "carNumber": 1
-  },
-  {
-    "name": "Bruno Mancebo",
-    "nameLastFirst": "Mancebo, Bruno",
-    "car": "Porsche 911 II GT3 R 2019",
-    "carNumber": 13
-  },
-  {
-    "name": "Keith Briscoe",
-    "nameLastFirst": "Briscoe, Keith",
-    "car": "Lexus RC F GT3",
-    "carNumber": 25
-  },
-  {
-    "name": "Dirk Groeneveld",
-    "nameLastFirst": "Groeneveld, Dirk",
-    "car": "McLaren 720S GT3 2019",
-    "carNumber": 136
-  },
-  {
-    "name": "Tim Brook",
-    "nameLastFirst": "Brook, Tim",
-    "car": "Bentley Continental GT3 2018",
-    "carNumber": 5
-  },
-  {
-    "name": "Chris B",
-    "nameLastFirst": "B, Chris",
-    "car": "Porsche 911 II GT3 R 2019",
-    "carNumber": 911
-  },
-  {
-    "name": "Grant Klinsing",
-    "nameLastFirst": "Klinsing, Grant",
-    "car": "AMR V8 Vantage 2019",
-    "carNumber": 49
-  },
-  {
-    "name": "Steve Davis",
-    "nameLastFirst": "Davis, Steve",
-    "car": "Lexus RC F GT3",
-    "carNumber": 6
-  },
-  {
-    "name": "Jon Uyan",
-    "nameLastFirst": "Uyan, Jon",
-    "car": "Audi R8 LMS Evo 2019",
-    "carNumber": 102
-  },
-  {
-    "name": "Janes Junior",
-    "nameLastFirst": "Junior, Janes",
-    "car": "Nissan GT R Nismo GT3 2018",
-    "carNumber": 18
-  },
-  {
-    "name": "Andreas Specht",
-    "nameLastFirst": "Specht, Andreas",
-    "car": "AMR V8 Vantage 2019",
-    "carNumber": 59
-  },
-  {
-    "name": "Robbie Montinola",
-    "nameLastFirst": "Montinola, Robbie",
-    "car": "Ferrari 488 GT3",
-    "carNumber": 28
-  },
-  {
-    "name": "Eric Andersen",
-    "nameLastFirst": "Andersen, Eric",
-    "car": "Lexus RC F GT3",
-    "carNumber": 23
-  },
-  {
-    "name": "Josh Staffin",
-    "nameLastFirst": "Staffin, Josh",
-    "car": "BMW M6 GT3",
-    "carNumber": 123
-  },
-  {
-    "name": "Zachary Kunin",
-    "nameLastFirst": "Kunin, Zachary",
-    "car": "McLaren 720S GT3 2019",
-    "carNumber": 300
-  },
-  {
-    "name": "Tadas Liutkus",
-    "nameLastFirst": "Liutkus, Tadas",
-    "car": "Honda NSX Evo 2019 ",
-    "carNumber": 727
-  },
-  {
-    "name": "Cory Millsop",
-    "nameLastFirst": "Millsop, Cory",
-    "car": "Lexus RC F GT3",
-    "carNumber": 24
-  },
-  {
-    "name": "riccardo navon",
-    "nameLastFirst": "navon, riccardo",
-    "car": "Ferrari 488 GT3",
-    "carNumber": 66
-  },
-  {
-    "name": "Matthew Marlow",
-    "nameLastFirst": "Marlow, Matthew",
-    "car": "AMR V8 Vantage 2019",
-    "carNumber": 549
-  },
-  {
-    "name": "Dave Hassar",
-    "nameLastFirst": "Hassar, Dave",
-    "car": "Mercedes AMG GT3",
-    "carNumber": 92
-  },
-  {
-    "name": "Takis Weekes",
-    "nameLastFirst": "Weekes, Takis",
-    "car": "Lamborghini Huracan Evo 2019",
-    "carNumber": 35
-  },
-  {
-    "name": "Paul Seymour",
-    "nameLastFirst": "Seymour, Paul",
-    "car": "AMR V8 Vantage 2019",
-    "carNumber": 101
-  },
-  {
-    "name": "Mark Barton",
-    "nameLastFirst": "Barton, Mark",
-    "car": "Porsche 911 II GT3 R 2019",
-    "carNumber": 27
-  },
-  {
-    "name": "Sean Bowers",
-    "nameLastFirst": "Bowers, Sean",
-    "car": "Honda NSX Evo 2019 ",
-    "carNumber": 777
-  },
-  {
-    "name": "Collin Johnson",
-    "nameLastFirst": "Johnson, Collin",
-    "car": "Audi R8 LMS Evo 2019",
-    "carNumber": 17
-  },
-  {
-    "name": "Dominic Guerin",
-    "nameLastFirst": "Guerin, Dominic",
-    "car": "Honda NSX Evo 2019 ",
-    "carNumber": 780
-  },
-  {
-    "name": "Dan Schneider",
-    "nameLastFirst": "Schneider, Dan",
-    "car": "Audi R8 LMS Evo 2019",
-    "carNumber": 31
-  },
-  {
-    "name": "Flavio Ducharme",
-    "nameLastFirst": "Ducharme, Flavio",
-    "car": "AMR V8 Vantage 2019",
-    "carNumber": 914
-  },
-  {
-    "name": "Tom DiLibero",
-    "nameLastFirst": "DiLibero, Tom",
-    "car": "Bentley Continental GT3 2018",
-    "carNumber": 8
-  },
-  {
-    "name": "Mister Murdock",
-    "nameLastFirst": "Murdock, Mister",
-    "car": "Lexus RC F GT3",
-    "carNumber": 26
-  },
-  {
-    "name": "George Assenza",
-    "nameLastFirst": "Assenza, George",
-    "car": "Ferrari 488 GT3",
-    "carNumber": 112
+    "carNumber": 73
   },
   {
     "name": "Harmon Amakobe",
@@ -246,22 +12,76 @@
     "carNumber": 143
   },
   {
-    "name": "Ryan Rounkle",
-    "nameLastFirst": "Rounkle, Ryan",
+    "name": "Eric Andersen",
+    "nameLastFirst": "Andersen, Eric",
+    "car": "Lexus RC F GT3",
+    "carNumber": 888
+  },
+  {
+    "name": "David Anderson",
+    "nameLastFirst": "Anderson, David",
+    "car": "Ferrari 488 GT3",
+    "carNumber": 78
+  },
+  {
+    "name": "Rafael Sampaio",
+    "nameLastFirst": "Araújo, Rafael Sampaio de",
+    "car": "Mercedes AMG GT3",
+    "carNumber": 96
+  },
+  {
+    "name": "George Assenza",
+    "nameLastFirst": "Assenza, George",
+    "car": "Ferrari 488 GT3",
+    "carNumber": 112
+  },
+  {
+    "name": "Chris B",
+    "nameLastFirst": "B, Chris",
     "car": "Porsche 911 II GT3 R 2019",
-    "carNumber": 912
+    "carNumber": 909
   },
   {
-    "name": "Steve Rivard",
-    "nameLastFirst": "Rivard, Steve",
+    "name": "Troy Barman",
+    "nameLastFirst": "Barman, Troy",
+    "car": "Mercedes AMG GT3",
+    "carNumber": 55
+  },
+  {
+    "name": "Mark Barton",
+    "nameLastFirst": "Barton, Mark",
+    "car": "Porsche 911 II GT3 R 2019",
+    "carNumber": 27
+  },
+  {
+    "name": "Barry Blocker",
+    "nameLastFirst": "Blocker, Barry",
+    "car": "Lexus RC F GT3",
+    "carNumber": 728
+  },
+  {
+    "name": "Sean Bowers",
+    "nameLastFirst": "Bowers, Sean",
+    "car": "Honda NSX Evo 2019 ",
+    "carNumber": 777
+  },
+  {
+    "name": "Keith Briscoe",
+    "nameLastFirst": "Briscoe, Keith",
+    "car": "Lexus RC F GT3",
+    "carNumber": 49
+  },
+  {
+    "name": "Tim Brook",
+    "nameLastFirst": "Brook, Tim",
     "car": "Bentley Continental GT3 2018",
-    "carNumber": 877
+    "carNumber": 107
   },
   {
-    "name": "Ethan Lim",
-    "nameLastFirst": "Lim, Ethan",
-    "car": "McLaren 720S GT3 2019",
-    "carNumber": 12
+    "name": "Drake Burgoon",
+    "nameLastFirst": "Burgoon, Drake",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 415
   },
   {
     "name": "Don Bélanger",
@@ -270,9 +90,291 @@
     "carNumber": 84
   },
   {
+    "name": "Guy Cosmo",
+    "nameLastFirst": "Cosmo, Guy",
+    "car": "Ferrari 488 GT3",
+    "carNumber": 52
+  },
+  {
+    "name": "Chris Cusano",
+    "nameLastFirst": "Cusano, Chris",
+    "car": "Lexus RC F GT3",
+    "carNumber": 23
+  },
+  {
+    "name": "Steve Davis",
+    "nameLastFirst": "Davis, Steve",
+    "car": "Lexus RC F GT3",
+    "carNumber": 5
+  },
+  {
+    "name": "Thomas DiLibero",
+    "nameLastFirst": "DiLibero, Thomas",
+    "car": "Lexus RC F GT3",
+    "carNumber": 207
+  },
+  {
+    "name": "Flavio Ducharme",
+    "nameLastFirst": "Ducharme, Flavio",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 914
+  },
+  {
+    "name": "Simon Fisher",
+    "nameLastFirst": "Fisher, Simon",
+    "car": "Ferrari 488 GT3",
+    "carNumber": 889
+  },
+  {
+    "name": "Matheus Freitas",
+    "nameLastFirst": "Freitas, Matheus",
+    "car": "Porsche 911 II GT3 R 2019",
+    "carNumber": 88
+  },
+  {
+    "name": "Dominic Guerin",
+    "nameLastFirst": "Guerin, Dominic",
+    "car": "Honda NSX Evo 2019 ",
+    "carNumber": 780
+  },
+  {
+    "name": "Hamza Gulzar",
+    "nameLastFirst": "Gulzar, Hamza",
+    "car": "Mercedes AMG GT3",
+    "carNumber": 14
+  },
+  {
+    "name": "Greg Hall",
+    "nameLastFirst": "Hall, Greg",
+    "car": "Mercedes AMG GT3",
+    "carNumber": 21
+  },
+  {
+    "name": "Dave Hassar",
+    "nameLastFirst": "Hassar, Dave",
+    "car": "Mercedes AMG GT3",
+    "carNumber": 92
+  },
+  {
+    "name": "Collin Johnson",
+    "nameLastFirst": "Johnson, Collin",
+    "car": "Audi R8 LMS Evo 2019",
+    "carNumber": 17
+  },
+  {
+    "name": "Grant Klinsing",
+    "nameLastFirst": "Klinsing, Grant",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 3
+  },
+  {
+    "name": "Steven Koontz",
+    "nameLastFirst": "Koontz, Steven",
+    "car": "Audi R8 LMS Evo 2019",
+    "carNumber": 11
+  },
+  {
+    "name": "Zachary Kunin",
+    "nameLastFirst": "Kunin, Zachary",
+    "car": "McLaren 720S GT3 2019",
+    "carNumber": 300
+  },
+  {
+    "name": "Zach Landry",
+    "nameLastFirst": "Landry, Zach",
+    "car": "Mercedes AMG GT3",
+    "carNumber": 333
+  },
+  {
+    "name": "Tomas Lastre",
+    "nameLastFirst": "Lastre, Tomas",
+    "car": "Porsche 911 II GT3 R 2019",
+    "carNumber": 717
+  },
+  {
+    "name": "Rino Di",
+    "nameLastFirst": "Lauro, Rino Di",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 59
+  },
+  {
+    "name": "Jon Leigh",
+    "nameLastFirst": "Leigh, Jon",
+    "car": "Porsche 911 II GT3 R 2019",
+    "carNumber": 7
+  },
+  {
+    "name": "Tadas Liutkus",
+    "nameLastFirst": "Liutkus, Tadas",
+    "car": "Honda NSX Evo 2019 ",
+    "carNumber": 727
+  },
+  {
+    "name": "Jason Lundy",
+    "nameLastFirst": "Lundy, Jason",
+    "car": "Porsche 911 II GT3 R 2019",
+    "carNumber": 4
+  },
+  {
+    "name": "Matthew Marlow",
+    "nameLastFirst": "Marlow, Matthew",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 549
+  },
+  {
+    "name": "Chris Melton",
+    "nameLastFirst": "Melton, Chris",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 34
+  },
+  {
+    "name": "Robert Merlino",
+    "nameLastFirst": "Merlino, Robert",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 188
+  },
+  {
+    "name": "Elard Meza",
+    "nameLastFirst": "Meza, Elard",
+    "car": "Ferrari 488 GT3",
+    "carNumber": 240
+  },
+  {
+    "name": "Cory Millsop",
+    "nameLastFirst": "Millsop, Cory",
+    "car": "Lexus RC F GT3",
+    "carNumber": 121
+  },
+  {
+    "name": "Robbie Montinola",
+    "nameLastFirst": "Montinola, Robbie",
+    "car": "Ferrari 488 GT3",
+    "carNumber": 28
+  },
+  {
+    "name": "Sean Moriarty",
+    "nameLastFirst": "Moriarty, Sean",
+    "car": "Porsche 911 II GT3 R 2019",
+    "carNumber": 2
+  },
+  {
+    "name": "Riccardo Navon",
+    "nameLastFirst": "Navon, Riccardo",
+    "car": "Ferrari 488 GT3",
+    "carNumber": 66
+  },
+  {
+    "name": "Matheus Nolli",
+    "nameLastFirst": "Nolli, Matheus",
+    "car": "Porsche 911 II GT3 R 2019",
+    "carNumber": 729
+  },
+  {
     "name": "Branden Ouellet",
     "nameLastFirst": "Ouellet, Branden",
     "car": "Lamborghini Huracan Evo 2019",
-    "carNumber": 19
+    "carNumber": 33
+  },
+  {
+    "name": "Fabio Pittol",
+    "nameLastFirst": "Pittol, Fabio",
+    "car": "Lamborghini Huracan Evo 2019",
+    "carNumber": 63
+  },
+  {
+    "name": "Steve Poe",
+    "nameLastFirst": "Poe, Steve",
+    "car": "Audi R8 LMS Evo 2019",
+    "carNumber": 369
+  },
+  {
+    "name": "Steve Rivard",
+    "nameLastFirst": "Rivard, Steve",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 77
+  },
+  {
+    "name": "Szymon Salamon",
+    "nameLastFirst": "Salamon, Szymon",
+    "car": "Porsche 911 II GT3 R 2019",
+    "carNumber": 919
+  },
+  {
+    "name": "Rocco Scarvetta",
+    "nameLastFirst": "Scarvetta, Rocco",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 36
+  },
+  {
+    "name": "Warren Schmitt",
+    "nameLastFirst": "Schmitt, Warren",
+    "car": "Mercedes AMG GT3",
+    "carNumber": 12
+  },
+  {
+    "name": "Dan Schneider",
+    "nameLastFirst": "Schneider, Dan",
+    "car": "Audi R8 LMS Evo 2019",
+    "carNumber": 431
+  },
+  {
+    "name": "Paul Seymour",
+    "nameLastFirst": "Seymour, Paul",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 101
+  },
+  {
+    "name": "Vishal Shukla",
+    "nameLastFirst": "Shukla, Vishal",
+    "car": "Porsche 911 II GT3 R 2019",
+    "carNumber": 912
+  },
+  {
+    "name": "Andreas Specht",
+    "nameLastFirst": "Specht, Andreas",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 730
+  },
+  {
+    "name": "Josh Staffin",
+    "nameLastFirst": "Staffin, Josh",
+    "car": "Honda NSX Evo 2019 ",
+    "carNumber": 230
+  },
+  {
+    "name": "JT Tami",
+    "nameLastFirst": "Tami, JT",
+    "car": "AMR V8 Vantage 2019",
+    "carNumber": 97
+  },
+  {
+    "name": "Jon Uyan",
+    "nameLastFirst": "Uyan, Jon",
+    "car": "Audi R8 LMS Evo 2019",
+    "carNumber": 111
+  },
+  {
+    "name": "Takis Weekes",
+    "nameLastFirst": "Weekes, Takis",
+    "car": "Lamborghini Huracan Evo 2019",
+    "carNumber": 35
+  },
+  {
+    "name": "Tim Winfree",
+    "nameLastFirst": "Winfree, Tim",
+    "car": "Porsche 911 II GT3 R 2019",
+    "carNumber": 992
+  },
+  {
+    "name": "Andrew Worden",
+    "nameLastFirst": "Worden, Andrew",
+    "car": "Lamborghini Huracan Evo 2019",
+    "carNumber": 616
+  },
+  {
+    "name": "Daniel Wright",
+    "nameLastFirst": "Wright, Daniel",
+    "car": "McLaren 720S GT3 2019",
+    "carNumber": 74
   }
 ]

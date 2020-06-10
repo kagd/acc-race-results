@@ -5,7 +5,7 @@ import * as path from 'path';
 import { Driver, CombinedRaceResult } from '../src/types';
 
 const races = [
-  '200602-0VG-preseason'
+  'round1-suzuka'
 ];
 
 const drivers: Driver[] = [];
@@ -34,15 +34,17 @@ races.forEach(function(race){
         carNumber: raceResult.carNumber,
       });
     }
-    memo[raceResult.name] = combinedResult;
+    memo.push(combinedResult);
     return memo;
-  }, {} as {[key: string]: CombinedRaceResult});
+  }, [] as CombinedRaceResult[]);
 
-  fs.writeFile(path.join(__dirname, '../', 'public', 'results', `${race}-combinedResult.json`), JSON.stringify(fullResults, null, 2), function(err) {
+  fs.writeFile(path.join(__dirname, '../', 'public', 'results', `${race}.json`), JSON.stringify(fullResults, null, 2), function(err) {
     if (err) {throw err};
   });
 });
-
-fs.writeFile(path.join(__dirname, '../', 'public', 'results', 'drivers.json'), JSON.stringify(drivers, null, 2), function(err) {
+const sortedDrivers = drivers.sort(function(a, b) {
+  return a.nameLastFirst > b.nameLastFirst ? 1 : -1;
+});
+fs.writeFile(path.join(__dirname, '../', 'public', 'results', 'drivers.json'), JSON.stringify(sortedDrivers, null, 2), function(err) {
   if (err) {throw err};
 });
