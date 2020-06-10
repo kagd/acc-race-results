@@ -1,0 +1,42 @@
+[
+  {
+    "finishingPosition": 1,
+    "carNumber": 14,
+    "class": "",
+    "team": "",
+    "car": "AMR V8 Vantage 2019",
+    "name": "Hamza Gulzar",
+    "lapsCompleted": 7,
+    "timeOrRetired": "",
+    "bestLap": "01:44.6460",
+    "consistency": "98.06%",
+    "lapsLed": 0,
+    "pitStops": 0,
+    "qualifying": {
+      "bestLap": "01:42.9720",
+      "finishingPosition": 1,
+      "lapsCompleted": 9,
+      "gap": "-"
+    }
+  },
+  {
+    "finishingPosition": 2,
+    "carNumber": 7,
+    "class": "",
+    "team": "",
+    "car": "Porsche 911 II GT3 R 2019",
+    "name": "Jon Leigh",
+    "lapsCompleted": 14,
+    "timeOrRetired": "",
+    "bestLap": "01:45.0330",
+    "consistency": "98.46%",
+    "lapsLed": 0,
+    "pitStops": 0,
+    "qualifying": {
+      "bestLap": "01:43.2990",
+      "finishingPosition": 2,
+      "lapsCompleted": 8,
+      "gap": "00:00.3270"
+    }
+  }
+]

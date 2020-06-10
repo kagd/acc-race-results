@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@types/canvasjs": "^1.9.5",
     "@types/node": "^12.12.44",
     "@types/react-router": "^5.1.7",
     "@types/react-router-dom": "^5.1.5",

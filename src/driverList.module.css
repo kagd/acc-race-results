@@ -8,47 +8,86 @@
 }
 
 .driverList li {
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #fff;
   list-style: none;
 }
 
-.driverList a {
+.driverList button {
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #fff;
   color: #222;
-  display: block;
+  display: grid;
+  grid-template-columns: 20px auto;
+  grid-template-rows: auto auto;
+  column-gap: 8px;
   padding: 8px 10px;
+  text-align: left;
   text-decoration: none;
+  white-space: nowrap;
+  width: 100%;
 }
 
-.driverList a:hover {
+.driverList button:hover {
+  background-color: #d3d3d3;
+  border-bottom: 1px solid #bbb;
+  border-top: 1px solid #eee;
+}
+
+.driverList button.selected {
+  border-bottom: 1px solid #bbb;
+  border-top: 1px solid #e3e3e3;
   background-color: #d3d3d3;
 }
 
-.driverList a strong,
-.driverList a em {
-  display: block;
+.driverList button.selected:hover {
+  border-bottom: 1px solid #aaa;
+  border-top: 1px solid #e3e3e3;
+  background-color: #ccc;
 }
 
-.driverList a strong {
-  color: #005CB6;
+.driverList button svg {
+  fill: #bbb;
+  grid-column: 1 / 1;
+  grid-row: 1 / span 2;
+  margin-top: 6px;
+  width: 20px;
+}
+.driverList button:hover svg {
+  fill: #aaa;
+}
+.driverList button.selected svg {
+  fill: #038387;
+}
+
+.driverList button strong {
+  color: #004e8c;
   font-size: 16px;
+  grid-column: 2 / 2;
+  margin-bottom: 3px;
 }
 
-.driverList a span {
-  color: #222;
-  font-size: 14px;
+.driverList button span {
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  font-style: italic;
+  vertical-align: top;
 }
 
-.driverList a em {
+.driverList button em {
+  display: block;
   font-size: 12px;
   font-style: normal;
+  grid-column: 2 / 2;
 }
 
 .form {
-  background-color: #e3e3e3;
+  background-color: #ddd;
   padding: 10px;
 }
 
 .form input {
+  padding-left: 5px;
   width: 100%;
 }

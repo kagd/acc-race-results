@@ -1,40 +1,21 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import styles from './driverList.module.css';
 import { DriverListItem } from './DriverListItem';
 import { Driver } from './types';
+import { DriversContext } from './DriversContext';
+import { filterDrivers } from './utils';
 
 export function DriverList() {
-  const [drivers, setDrivers] = useState<Driver[]>([]);
+  const [search, setSearch] = useState<string>('');
   const [filteredDrivers, setFilteredDrivers] = useState<Driver[]>([]);
-
-  async function fetchDrivers() {
-    const response = await fetch('./results/drivers.json');
-    const result = await response.json();
-    setDrivers(result);
-    filterDrivers(result, '');
-  }
+  const {drivers} = useContext(DriversContext);
 
   useEffect(function(){
-    fetchDrivers();
-  }, []);
+    setFilteredDrivers(filterDrivers(drivers, search));
+  }, [drivers, search, setFilteredDrivers]);
   
   function onChange(e: React.ChangeEvent<HTMLInputElement>) {
-    filterDrivers(Object.values(drivers), e.target.value);
-  }
-
-  function filterDrivers(collection: Driver[], value: string){
-    const filtered: Driver[] = collection.reduce(function(memo, driver){
-      const textMatch = driver.name.toLowerCase().match(value.toLowerCase());
-      const carNumberMatch = driver.carNumber.toString().match(value);
-      const carMatch = driver.car.toLowerCase().match(value.toLowerCase());
-      if(textMatch || carNumberMatch || carMatch){
-        memo.push(driver);
-      }
-      return memo;
-    }, [] as Driver[]);
-    setFilteredDrivers(filtered.sort(function(a, b){
-      return a.nameLastFirst.toLowerCase() > b.nameLastFirst.toLowerCase() ? 1 : -1;
-    }));
+    setSearch(e.target.value);
   }
 
   return (
@@ -43,7 +24,9 @@ export function DriverList() {
         <input type="text" onChange={onChange} autoFocus placeholder="Filter" />
       </form>
       <ul className={styles.driverList}>
-        {filteredDrivers.map((driver) => <DriverListItem driver={driver} />)}
+        {filteredDrivers.map((driver) => 
+          <DriverListItem driver={driver} key={driver.name} />
+        )}
       </ul>
     </div>
   );
