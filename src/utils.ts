@@ -26,7 +26,7 @@ export function sortByName(a: CombinedRaceResult, b: CombinedRaceResult){
 
 export function wins(datapoints: ChartDataPoint[]): number {
   return datapoints.reduce(function(memo, datapoint){
-    return datapoint.x === 1 ? memo + 1 : memo;
+    return datapoint.y === 1 ? memo + 1 : memo;
   }, 0);
 };
 
