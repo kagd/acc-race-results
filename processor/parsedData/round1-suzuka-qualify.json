@@ -5,7 +5,7 @@
     "class": "",
     "team": "",
     "car": "Mercedes AMG GT3",
-    "name": "Troy Barman",
+    "nameFirstLast": "Troy Barman",
     "lapsCompleted": 7,
     "bestLap": "01:58.6710",
     "gap": "-"
@@ -16,7 +16,7 @@
     "class": "",
     "team": "",
     "car": "Mercedes AMG GT3",
-    "name": "Hamza Gulzar",
+    "nameFirstLast": "Hamza Gulzar",
     "lapsCompleted": 8,
     "bestLap": "01:59.2350",
     "gap": "00:00.5640"
@@ -27,7 +27,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Jon Leigh",
+    "nameFirstLast": "Jon Leigh",
     "lapsCompleted": 8,
     "bestLap": "01:59.8890",
     "gap": "00:01.2180"
@@ -38,7 +38,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Drake Burgoon",
+    "nameFirstLast": "Drake Burgoon",
     "lapsCompleted": 6,
     "bestLap": "02:00.5910",
     "gap": "00:01.9200"
@@ -49,7 +49,7 @@
     "class": "",
     "team": "",
     "car": "Lamborghini Huracan Evo 2019",
-    "name": "Andrew Worden",
+    "nameFirstLast": "Andrew Worden",
     "lapsCompleted": 8,
     "bestLap": "02:00.5940",
     "gap": "00:01.9230"
@@ -60,7 +60,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Tomas Lastre",
+    "nameFirstLast": "Tomas Lastre",
     "lapsCompleted": 8,
     "bestLap": "02:00.7890",
     "gap": "00:02.1180"
@@ -71,7 +71,7 @@
     "class": "",
     "team": "",
     "car": "Honda NSX Evo 2019 ",
-    "name": "Josh Staffin",
+    "nameFirstLast": "Josh Staffin",
     "lapsCompleted": 8,
     "bestLap": "02:00.7920",
     "gap": "00:02.1210"
@@ -82,7 +82,7 @@
     "class": "",
     "team": "",
     "car": "Mercedes AMG GT3",
-    "name": "Greg Hall",
+    "nameFirstLast": "Greg Hall",
     "lapsCompleted": 8,
     "bestLap": "02:00.8280",
     "gap": "00:02.1570"
@@ -93,7 +93,7 @@
     "class": "",
     "team": "",
     "car": "Lamborghini Huracan Evo 2019",
-    "name": "Branden Ouellet",
+    "nameFirstLast": "Branden Ouellet",
     "lapsCompleted": 7,
     "bestLap": "02:01.0590",
     "gap": "00:02.3880"
@@ -104,7 +104,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Matheus Nolli",
+    "nameFirstLast": "Matheus Nolli",
     "lapsCompleted": 9,
     "bestLap": "02:01.0620",
     "gap": "00:02.3910"
@@ -115,7 +115,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Grant Klinsing",
+    "nameFirstLast": "Grant Klinsing",
     "lapsCompleted": 5,
     "bestLap": "02:01.1250",
     "gap": "00:02.4540"
@@ -126,7 +126,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "JT Tami",
+    "nameFirstLast": "JT Tami",
     "lapsCompleted": 9,
     "bestLap": "02:01.1670",
     "gap": "00:02.4960"
@@ -137,7 +137,7 @@
     "class": "",
     "team": "",
     "car": "Honda NSX Evo 2019 ",
-    "name": "Tadas Liutkus",
+    "nameFirstLast": "Tadas Liutkus",
     "lapsCompleted": 7,
     "bestLap": "02:01.2510",
     "gap": "00:02.5800"
@@ -148,7 +148,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Matheus Freitas",
+    "nameFirstLast": "Matheus Freitas",
     "lapsCompleted": 8,
     "bestLap": "02:01.2810",
     "gap": "00:02.6100"
@@ -159,7 +159,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Sean Moriarty",
+    "nameFirstLast": "Sean Moriarty",
     "lapsCompleted": 6,
     "bestLap": "02:01.4280",
     "gap": "00:02.7570"
@@ -170,7 +170,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Szymon Salamon",
+    "nameFirstLast": "Szymon Salamon",
     "lapsCompleted": 5,
     "bestLap": "02:01.4370",
     "gap": "00:02.7660"
@@ -181,7 +181,7 @@
     "class": "",
     "team": "",
     "car": "McLaren 720S GT3 2019",
-    "name": "Daniel Wright",
+    "nameFirstLast": "Daniel Wright",
     "lapsCompleted": 8,
     "bestLap": "02:01.4550",
     "gap": "00:02.7840"
@@ -192,7 +192,7 @@
     "class": "",
     "team": "",
     "car": "Lamborghini Huracan Evo 2019",
-    "name": "Takis Weekes",
+    "nameFirstLast": "Takis Weekes",
     "lapsCompleted": 7,
     "bestLap": "02:01.5840",
     "gap": "00:02.9130"
@@ -203,7 +203,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Matthew Marlow",
+    "nameFirstLast": "Matthew Marlow",
     "lapsCompleted": 5,
     "bestLap": "02:01.6140",
     "gap": "00:02.9430"
@@ -214,7 +214,7 @@
     "class": "",
     "team": "",
     "car": "Ferrari 488 GT3",
-    "name": "Simon Fisher",
+    "nameFirstLast": "Simon Fisher",
     "lapsCompleted": 6,
     "bestLap": "02:01.6230",
     "gap": "00:02.9520"
@@ -225,7 +225,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Andreas Specht",
+    "nameFirstLast": "Andreas Specht",
     "lapsCompleted": 8,
     "bestLap": "02:01.6710",
     "gap": "00:03.0000"
@@ -236,7 +236,7 @@
     "class": "",
     "team": "",
     "car": "Lexus RC F GT3",
-    "name": "Keith Briscoe",
+    "nameFirstLast": "Keith Briscoe",
     "lapsCompleted": 7,
     "bestLap": "02:01.6740",
     "gap": "00:03.0030"
@@ -247,7 +247,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Mark Barton",
+    "nameFirstLast": "Mark Barton",
     "lapsCompleted": 6,
     "bestLap": "02:01.6800",
     "gap": "00:03.0090"
@@ -258,7 +258,7 @@
     "class": "",
     "team": "",
     "car": "Lamborghini Huracan Evo 2019",
-    "name": "Fabio Pittol",
+    "nameFirstLast": "Fabio Pittol",
     "lapsCompleted": 7,
     "bestLap": "02:01.7430",
     "gap": "00:03.0720"
@@ -269,7 +269,7 @@
     "class": "",
     "team": "",
     "car": "McLaren 720S GT3 2019",
-    "name": "Zachary Kunin",
+    "nameFirstLast": "Zachary Kunin",
     "lapsCompleted": 7,
     "bestLap": "02:01.7880",
     "gap": "00:03.1170"
@@ -280,7 +280,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Paul Seymour",
+    "nameFirstLast": "Paul Seymour",
     "lapsCompleted": 6,
     "bestLap": "02:01.8300",
     "gap": "00:03.1590"
@@ -291,7 +291,7 @@
     "class": "",
     "team": "",
     "car": "Audi R8 LMS Evo 2019",
-    "name": "Jon Uyan",
+    "nameFirstLast": "Jon Uyan",
     "lapsCompleted": 8,
     "bestLap": "02:01.9200",
     "gap": "00:03.2490"
@@ -302,7 +302,7 @@
     "class": "",
     "team": "",
     "car": "Mercedes AMG GT3",
-    "name": "Dave Hassar",
+    "nameFirstLast": "Dave Hassar",
     "lapsCompleted": 8,
     "bestLap": "02:01.9380",
     "gap": "00:03.2670"
@@ -313,7 +313,7 @@
     "class": "",
     "team": "",
     "car": "Lexus RC F GT3",
-    "name": "Barry Blocker",
+    "nameFirstLast": "Barry Blocker",
     "lapsCompleted": 7,
     "bestLap": "02:01.9560",
     "gap": "00:03.2850"
@@ -324,7 +324,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Chris B",
+    "nameFirstLast": "Chris B",
     "lapsCompleted": 7,
     "bestLap": "02:01.9680",
     "gap": "00:03.2970"
@@ -335,7 +335,7 @@
     "class": "",
     "team": "",
     "car": "Ferrari 488 GT3",
-    "name": "Don Bélanger",
+    "nameFirstLast": "Don Bélanger",
     "lapsCompleted": 9,
     "bestLap": "02:02.0100",
     "gap": "00:03.3390"
@@ -346,7 +346,7 @@
     "class": "",
     "team": "",
     "car": "Lexus RC F GT3",
-    "name": "Steve Davis",
+    "nameFirstLast": "Steve Davis",
     "lapsCompleted": 6,
     "bestLap": "02:02.0880",
     "gap": "00:03.4170"
@@ -357,7 +357,7 @@
     "class": "",
     "team": "",
     "car": "Lexus RC F GT3",
-    "name": "Cory Millsop",
+    "nameFirstLast": "Cory Millsop",
     "lapsCompleted": 7,
     "bestLap": "02:02.1720",
     "gap": "00:03.5010"
@@ -368,7 +368,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Jason Lundy",
+    "nameFirstLast": "Jason Lundy",
     "lapsCompleted": 7,
     "bestLap": "02:02.2110",
     "gap": "00:03.5400"
@@ -379,7 +379,7 @@
     "class": "",
     "team": "",
     "car": "Ferrari 488 GT3",
-    "name": "Robbie Montinola",
+    "nameFirstLast": "Robbie Montinola",
     "lapsCompleted": 7,
     "bestLap": "02:02.2140",
     "gap": "00:03.5430"
@@ -390,7 +390,7 @@
     "class": "",
     "team": "",
     "car": "Lexus RC F GT3",
-    "name": "Eric Andersen",
+    "nameFirstLast": "Eric Andersen",
     "lapsCompleted": 9,
     "bestLap": "02:02.2590",
     "gap": "00:03.5880"
@@ -401,7 +401,7 @@
     "class": "",
     "team": "",
     "car": "Mercedes AMG GT3",
-    "name": "Rafael Sampaio de Araújo",
+    "nameFirstLast": "Rafael Sampaio de Araújo",
     "lapsCompleted": 8,
     "bestLap": "02:02.5080",
     "gap": "00:03.8370"
@@ -412,7 +412,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Tim Winfree",
+    "nameFirstLast": "Tim Winfree",
     "lapsCompleted": 8,
     "bestLap": "02:02.5170",
     "gap": "00:03.8460"
@@ -423,7 +423,7 @@
     "class": "",
     "team": "",
     "car": "Audi R8 LMS Evo 2019",
-    "name": "Steven Koontz",
+    "nameFirstLast": "Steven Koontz",
     "lapsCompleted": 6,
     "bestLap": "02:02.5740",
     "gap": "00:03.9030"
@@ -434,7 +434,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Rocco Scarvetta",
+    "nameFirstLast": "Rocco Scarvetta",
     "lapsCompleted": 8,
     "bestLap": "02:02.8560",
     "gap": "00:04.1850"
@@ -445,7 +445,7 @@
     "class": "",
     "team": "",
     "car": "Bentley Continental GT3 2018",
-    "name": "Tim Brook",
+    "nameFirstLast": "Tim Brook",
     "lapsCompleted": 7,
     "bestLap": "02:03.0240",
     "gap": "00:04.3530"
@@ -456,7 +456,7 @@
     "class": "",
     "team": "",
     "car": "Ferrari 488 GT3",
-    "name": "Riccardo Navon",
+    "nameFirstLast": "Riccardo Navon",
     "lapsCompleted": 7,
     "bestLap": "02:03.0930",
     "gap": "00:04.4220"
@@ -467,7 +467,7 @@
     "class": "",
     "team": "",
     "car": "Lexus RC F GT3",
-    "name": "Chris Cusano",
+    "nameFirstLast": "Chris Cusano",
     "lapsCompleted": 7,
     "bestLap": "02:03.1440",
     "gap": "00:04.4730"
@@ -478,7 +478,7 @@
     "class": "",
     "team": "",
     "car": "Honda NSX Evo 2019 ",
-    "name": "Dominic Guerin",
+    "nameFirstLast": "Dominic Guerin",
     "lapsCompleted": 7,
     "bestLap": "02:03.1830",
     "gap": "00:04.5120"
@@ -489,7 +489,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Flavio Ducharme",
+    "nameFirstLast": "Flavio Ducharme",
     "lapsCompleted": 4,
     "bestLap": "02:03.3090",
     "gap": "00:04.6380"
@@ -500,7 +500,7 @@
     "class": "",
     "team": "",
     "car": "Audi R8 LMS Evo 2019",
-    "name": "Collin Johnson",
+    "nameFirstLast": "Collin Johnson",
     "lapsCompleted": 6,
     "bestLap": "02:03.4020",
     "gap": "00:04.7310"
@@ -511,7 +511,7 @@
     "class": "",
     "team": "",
     "car": "Mercedes AMG GT3",
-    "name": "Warren Schmitt",
+    "nameFirstLast": "Warren Schmitt",
     "lapsCompleted": 7,
     "bestLap": "02:03.4080",
     "gap": "00:04.7370"
@@ -522,7 +522,7 @@
     "class": "",
     "team": "",
     "car": "Honda NSX Evo 2019 ",
-    "name": "Sean Bowers",
+    "nameFirstLast": "Sean Bowers",
     "lapsCompleted": 7,
     "bestLap": "02:03.4860",
     "gap": "00:04.8150"
@@ -533,7 +533,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Vishal Shukla",
+    "nameFirstLast": "Vishal Shukla",
     "lapsCompleted": 7,
     "bestLap": "02:03.9240",
     "gap": "00:05.2530"
@@ -544,7 +544,7 @@
     "class": "",
     "team": "",
     "car": "Audi R8 LMS Evo 2019",
-    "name": "Steve Poe",
+    "nameFirstLast": "Steve Poe",
     "lapsCompleted": 7,
     "bestLap": "02:03.9540",
     "gap": "00:05.2830"
@@ -555,7 +555,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Chris Melton",
+    "nameFirstLast": "Chris Melton",
     "lapsCompleted": 6,
     "bestLap": "02:03.9870",
     "gap": "00:05.3160"
@@ -566,7 +566,7 @@
     "class": "",
     "team": "",
     "car": "Lexus RC F GT3",
-    "name": "Thomas DiLibero",
+    "nameFirstLast": "Thomas DiLibero",
     "lapsCompleted": 4,
     "bestLap": "02:04.5000",
     "gap": "00:05.8290"
@@ -577,7 +577,7 @@
     "class": "",
     "team": "",
     "car": "Audi R8 LMS Evo 2019",
-    "name": "Dan Schneider",
+    "nameFirstLast": "Dan Schneider",
     "lapsCompleted": 5,
     "bestLap": "02:04.9440",
     "gap": "00:06.2730"
@@ -588,7 +588,7 @@
     "class": "",
     "team": "",
     "car": "Ferrari 488 GT3",
-    "name": "David Anderson",
+    "nameFirstLast": "David Anderson",
     "lapsCompleted": 6,
     "bestLap": "02:05.1120",
     "gap": "00:06.4410"
@@ -599,7 +599,7 @@
     "class": "",
     "team": "",
     "car": "Mercedes AMG GT3",
-    "name": "Zach Landry",
+    "nameFirstLast": "Zach Landry",
     "lapsCompleted": 5,
     "bestLap": "02:05.6310",
     "gap": "00:06.9600"
@@ -610,7 +610,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Rino Di Lauro",
+    "nameFirstLast": "Rino Di Lauro",
     "lapsCompleted": 2,
     "bestLap": "02:05.6880",
     "gap": "00:07.0170"
@@ -621,7 +621,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Steve Rivard",
+    "nameFirstLast": "Steve Rivard",
     "lapsCompleted": 6,
     "bestLap": "02:05.7420",
     "gap": "00:07.0710"
@@ -632,7 +632,7 @@
     "class": "",
     "team": "",
     "car": "Bentley Continental GT3 2018",
-    "name": "Harmon Amakobe",
+    "nameFirstLast": "Harmon Amakobe",
     "lapsCompleted": 6,
     "bestLap": "02:05.9070",
     "gap": "00:07.2360"
@@ -643,7 +643,7 @@
     "class": "",
     "team": "",
     "car": "Ferrari 488 GT3",
-    "name": "George Assenza",
+    "nameFirstLast": "George Assenza",
     "lapsCompleted": 6,
     "bestLap": "02:06.1290",
     "gap": "00:07.4580"
@@ -654,7 +654,7 @@
     "class": "",
     "team": "",
     "car": "AMR V8 Vantage 2019",
-    "name": "Robert Merlino",
+    "nameFirstLast": "Robert Merlino",
     "lapsCompleted": 5,
     "bestLap": "02:06.6630",
     "gap": "00:07.9920"
@@ -665,7 +665,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Conrad Abbott",
+    "nameFirstLast": "Conrad Abbott",
     "lapsCompleted": 4,
     "bestLap": "-",
     "gap": "-"
@@ -676,7 +676,7 @@
     "class": "",
     "team": "",
     "car": "Ferrari 488 GT3",
-    "name": "Elard Meza",
+    "nameFirstLast": "Elard Meza",
     "lapsCompleted": 7,
     "bestLap": "-",
     "gap": "-"
@@ -687,7 +687,7 @@
     "class": "",
     "team": "",
     "car": "Ferrari 488 GT3",
-    "name": "Guy Cosmo",
+    "nameFirstLast": "Guy Cosmo",
     "lapsCompleted": 3,
     "bestLap": "-",
     "gap": "-"
@@ -698,7 +698,7 @@
     "class": "",
     "team": "",
     "car": "Porsche 911 II GT3 R 2019",
-    "name": "Guy Cosmo",
+    "nameFirstLast": "Guy Cosmo",
     "lapsCompleted": 0,
     "bestLap": "-",
     "gap": "-"

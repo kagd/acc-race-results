@@ -10,14 +10,14 @@ interface DriverListItemProps {
 
 export function DriverListItem(props: DriverListItemProps) {
   const {onSelectDriver, onDeselectDriver, selectedDriverNames} = useContext(DriversContext);
-  const isSelected = selectedDriverNames.indexOf(props.driver.name) > -1;
+  const isSelected = selectedDriverNames.indexOf(props.driver.nameFirstLast) > -1;
   const className = `${ isSelected ? styles.selected : '' }`;
 
   function toggleSelected(){
     if(isSelected){
-      return onDeselectDriver(props.driver.name)
+      return onDeselectDriver(props.driver.nameFirstLast)
     }
-    return onSelectDriver(props.driver.name)
+    return onSelectDriver(props.driver.nameFirstLast)
   }
 
   return (

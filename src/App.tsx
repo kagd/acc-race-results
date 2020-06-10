@@ -6,6 +6,8 @@ import { DriversContext } from './DriversContext';
 import { Driver } from './types';
 import { Season } from './Season';
 import { Race } from './Race';
+import { races, raceNameMappings } from './races';
+import { setSelectedDriverNames as setSelectedDriverNamesLS, getSelectedDriverNames } from './localStorage';
 
 export function App() {
   const [drivers, setDrivers] = useState<Driver[]>([]);
@@ -15,17 +17,21 @@ export function App() {
     const response = await fetch('./results/drivers.json');
     const result = await response.json();
     setDrivers(result);
+    setSelectedDriverNames(getSelectedDriverNames());
   }
 
   function onSelectDriver(driverName: string){
-    setSelectedDriverNames([...selectedDriverNames, driverName]);
+    const names = [...selectedDriverNames, driverName];
+    setSelectedDriverNames(names);
+    setSelectedDriverNamesLS(names);
   }
 
   function onDeselectDriver(driverName: string){
     const index = selectedDriverNames.indexOf(driverName);
-    const newCarNumbers = [...selectedDriverNames];
-    newCarNumbers.splice(index, 1);
-    setSelectedDriverNames(newCarNumbers);
+    const newDriverNames = [...selectedDriverNames];
+    newDriverNames.splice(index, 1);
+    setSelectedDriverNames(newDriverNames);
+    setSelectedDriverNamesLS(newDriverNames);
   }
 
   useEffect(function(){
@@ -49,7 +55,7 @@ export function App() {
           <main>
             <nav>
               <Link to="/season/3">Season Stats</Link>
-              <Link to="/season/races/suzuka">Suzuka</Link>
+              {races.map(race => <Link to={`/season/races/${race}`}>{raceNameMappings[race]}</Link>)}
             </nav>
             <section className={styles.mainContent}>
               <Switch>

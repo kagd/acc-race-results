@@ -4,7 +4,7 @@ import { ChartDataPoint } from "canvasjs";
 export function filterDrivers(collection: Driver[], value: string): Driver[] {
   const valueLower = value.toLowerCase();
   const filtered: Driver[] = collection.reduce(function(memo, driver){
-    const textMatch = driver.name.toLowerCase().match(valueLower);
+    const textMatch = driver.nameFirstLast.toLowerCase().match(valueLower);
     const carNumberMatch = driver.carNumber.toString().match(value);
     const carMatch = driver.car.toLowerCase().match(valueLower);
     if(textMatch || carNumberMatch || carMatch){
@@ -21,7 +21,7 @@ export function sortByLastName(a: Driver, b: Driver){
 }
 
 export function sortByName(a: CombinedRaceResult, b: CombinedRaceResult){
-  return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
+  return a.nameFirstLast.toLowerCase() > b.nameFirstLast.toLowerCase() ? 1 : -1;
 }
 
 export function wins(datapoints: ChartDataPoint[]): number {

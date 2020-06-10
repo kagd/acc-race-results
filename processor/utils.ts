@@ -8,7 +8,7 @@ export const resultsKeyMappings = {
   bestLap: 'bestLap',
   class: 'class',
   consistency: 'consistency',
-  driver: 'name',
+  driver: 'nameFirstLast',
   gap: 'gap',
   laps: 'lapsCompleted',
   led: 'lapsLed',

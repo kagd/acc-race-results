@@ -25,7 +25,7 @@ export function DriverList() {
       </form>
       <ul className={styles.driverList}>
         {filteredDrivers.map((driver) => 
-          <DriverListItem driver={driver} key={driver.name} />
+          <DriverListItem driver={driver} key={driver.nameFirstLast} />
         )}
       </ul>
     </div>

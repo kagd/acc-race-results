@@ -6,6 +6,8 @@ import { DriversContext } from './DriversContext';
 import { CombinedRaceResult } from './types';
 import { RouteComponentProps } from 'react-router';
 import { wins, podiums, topFive, topTwentyFive } from './utils';
+import { races, raceNameMappings} from './races';
+import { fetchRaceResults } from './service';
 
 interface SeasonProps extends RouteComponentProps {}
 
@@ -18,17 +20,6 @@ function getColor(): string {
   }
   usedColors.push(newColor);
   return newColor;
-}
-
-const races = ['suzuka', 'paul_ricard','leguna_seca', 'zolder',  'zandvoort', 'kyalami', 'bathurst'];
-const raceNameMappings: {[key: string]: string} = {
-  suzuka: 'Suzuka',
-  paul_ricard: 'Paul Ricard',
-  leguna_seca: 'Leguna Seca',
-  zolder: 'Zolder',
-  zandvoort: 'Zandvoort',
-  kyalami: 'Kayalami',
-  bathurst: 'Bathurst'
 }
 
 function getOptions(data: ChartDataSeriesOptions[]): ChartOptions {
@@ -75,7 +66,7 @@ function formatData(selectedDriverName: string, allRaceResults: CombinedRaceResu
     dataPoints: []
   }
   allRaceResults.forEach(function(raceResult, idx){
-    const result = raceResult.find(result => result.name === selectedDriverName);
+    const result = raceResult.find(result => result.nameFirstLast === selectedDriverName);
     driverInfo.dataPoints.push({ x: idx + 1, y: result?.finishingPosition, label: raceNameMappings[races[idx]] })
   });
 
@@ -87,10 +78,10 @@ export function Season(props: SeasonProps) {
   const [options, setOptions] = useState<ChartOptions>();
 
   async function getRaces(){
-    const resultPromises: Promise<CombinedRaceResult[]>[] = races.map(async (race) => await (await (fetch(`/results/${race}.json`))).json());
-    const results = await Promise.all(resultPromises);
+    const allRaceResultsPromises: Promise<CombinedRaceResult[]>[] = races.map(fetchRaceResults);
+    const allRaceResults = await Promise.all(allRaceResultsPromises);
     const driverCombinedResults = context.selectedDriverNames.map(function(driverName){
-      return formatData(driverName, results);
+      return formatData(driverName, allRaceResults);
     });
 
     setOptions(getOptions(driverCombinedResults));

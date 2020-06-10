@@ -16,8 +16,14 @@ races.forEach(function(race){
 
   const fullResults = qualifyingResults.reduce(function(memo, qualifyingResult){
     const raceResult = raceResults.find(raceResult => raceResult.carNumber === qualifyingResult.carNumber);
+    const nameParts = raceResult.nameFirstLast.split(' ');
+    const firstName = nameParts.shift();
+    const lastName = nameParts.join(' ');
+    console.log(lastName)
+    const nameLastFirst = `${lastName}, ${firstName}`;
     const combinedResult: CombinedRaceResult = {
       ...raceResult,
+      nameLastFirst,
       qualifying: {
         bestLap: qualifyingResult.bestLap,
         finishingPosition: qualifyingResult.finishingPosition,
@@ -25,11 +31,10 @@ races.forEach(function(race){
         gap: qualifyingResult.gap,
       },
     };
-    if(!drivers.find(driver => raceResult.name === driver.name)){
-      const nameParts = raceResult.name.split(' ');
+    if(!drivers.find(driver => raceResult.nameFirstLast === driver.nameFirstLast)){
       drivers.push({
-        name: `${nameParts[0]} ${nameParts[1]}`,
-        nameLastFirst: `${nameParts.pop()}, ${nameParts.join(' ')}`,
+        nameFirstLast: raceResult.nameFirstLast,
+        nameLastFirst,
         car: raceResult.car,
         carNumber: raceResult.carNumber,
       });

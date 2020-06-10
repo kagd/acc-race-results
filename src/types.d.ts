@@ -1,5 +1,5 @@
 export type Driver = {
-  name: string;
+  nameFirstLast: string;
   nameLastFirst: string;
   car: string;
   carNumber: number;
@@ -28,16 +28,18 @@ export interface RaceResult {
   class: string;
   team: string;
   car: string;
-  name: string;
+  nameFirstLast: string;
   lapsCompleted: string;
   timeOrRetired: string;
   bestLap: string;
   consistency: string;
   lapsLed: number;
   pitStops: number;
+  ballast: number;
 }
 
 export interface CombinedRaceResult extends RaceResult {
+  nameLastFirst: string;
   qualifying: {
     finishingPosition: number;
     lapsCompleted: string;
